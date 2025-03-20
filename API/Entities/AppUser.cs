@@ -11,4 +11,10 @@ public class AppUser
     //C11 has required
     //Based on API Nullable feild 
     public required string Username { get; set; }
+
+
+    public required byte[] PasswordHash {get;set;}
+
+    public required byte[] PasswordSalt {get;set;}
+
 }
